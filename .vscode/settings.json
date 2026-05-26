@@ -1,0 +1,4 @@
+{
+  "cph.language.cpp.compile": "/opt/homebrew/bin/g++-15 -std=c++17 -O2 -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -o .cphbin $fileName",
+  "cph.language.cpp.run": "./.cphbin"
+}

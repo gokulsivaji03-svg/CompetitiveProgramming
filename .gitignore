@@ -1,0 +1,14 @@
+.DS_Store
+.cphbin
+*.bin
+fs
+main
+input.txt
+output.txt
+
+# Local tooling
+cph-fork/
+scripts/
+
+# Optional editor noise
+.vscode/c_cpp_properties.json
