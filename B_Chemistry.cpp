@@ -10,11 +10,13 @@ void solve() {
     for(char c : s){
         freq[c]++;
     }
-
-    for(const auto& [c, i] : freq){
-        if(i%2!=0 && i)
+    for(const auto& [nums, counter] : freq){
+        if(counter%2!=0 && counter-k>1){
+            cout << "NO" << "\n";
+            return;
+        }
     }
-
+    cout << "YES" << "\n";
 }
 
 int main() {
